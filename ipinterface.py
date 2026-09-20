@@ -2,7 +2,7 @@ from netmiko import ConnectHandler
 
 router = {
     "device_type": "cisco_ios",
-    "host": "192.168.50.141",
+    "host": "192.168.80.135",
     "username": "surya",
     "password": "cisco123",       # Update if your password uses a capital 'C'
     "secret": "cisco123",         # Enable secret
